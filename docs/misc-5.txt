@@ -1,0 +1,4 @@
+Home insurance policy schedule
+Policy 55-1234
+Insured: John Example
+Annual premium: 2,310.00

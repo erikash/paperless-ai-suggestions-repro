@@ -1,0 +1,21 @@
+Contoso Mobile Ltd.
+1 Cellular Plaza, Example City 5100
+billing@contoso-mobile.example
+Date: 03/02/26
+Original
+Tax Invoice / Receipt No. 9772246
+Bill to: John Example
+12 Sample Street, Springfield 75001
+Customer ID: 000123456
+Description | Qty | Price | Total
+Mobile line plan, monthly | 1 | 29.90 | 29.90
+Total before discount: 29.90
+Total before VAT: 29.90
+VAT 18%: 5.38
+Total to pay: 35.28
+Payments
+Amount | Method | Date | Reference
+35.28 | Visa | 03/02/26 | 0
+Total paid: 35.28
+Customer signature:
+Issuer signature:

@@ -1,0 +1,4 @@
+Account statement
+Account holder: John Example
+Opening balance 10,000.00
+Closing balance 9,512.33

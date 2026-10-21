@@ -1,0 +1,28 @@
+# Throwaway Paperless-ngx 3.3.2 (official image) with AI enabled against a local,
+# deterministic OpenAI-compatible mock (mockllm/server.py). No API keys needed.
+services:
+  broker:
+    image: redis:8
+  mockllm:
+    image: python:3.12-slim
+    command: python -u /app/server.py
+    volumes: [./mockllm:/app:ro, ./prompts:/prompts]
+    ports: ["8011:8000"]
+  webserver:
+    image: paperlessngx/paperless-ngx:3.3.2
+    depends_on: [broker, mockllm]
+    ports: ["8010:8000"]
+    environment:
+      PAPERLESS_REDIS: redis://broker:6379
+      PAPERLESS_SECRET_KEY: throwaway-reproduction-only-key-0123456789
+      PAPERLESS_ADMIN_USER: admin
+      PAPERLESS_ADMIN_PASSWORD: admin
+      PAPERLESS_LOGGING_LEVEL: DEBUG
+      PAPERLESS_AI_ENABLED: "true"
+      PAPERLESS_AI_LLM_BACKEND: openai-like
+      PAPERLESS_AI_LLM_ENDPOINT: http://mockllm:8000/v1
+      PAPERLESS_AI_LLM_MODEL: mock
+      PAPERLESS_AI_LLM_EMBEDDING_BACKEND: openai-like
+      PAPERLESS_AI_LLM_EMBEDDING_ENDPOINT: http://mockllm:8000/v1
+      PAPERLESS_AI_LLM_EMBEDDING_MODEL: mock-embeddings
+      PAPERLESS_AI_LLM_ALLOW_INTERNAL_ENDPOINTS: "true"

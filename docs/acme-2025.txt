@@ -1,0 +1,21 @@
+Acme Domains Ltd.
+4 Registrar Road, Example City 10001
+billing@acmedomains.example
+Date: 18/10/25
+Original
+Tax Invoice / Receipt No. 2025-0417
+Bill to: John Example
+12 Sample Street, Springfield 75001
+Customer ID: 000123456
+Description | Qty | Price | Total
+Domain renewal for one year: example-family.org | 1 | 77.97 | 77.97
+Total before discount: 77.97
+Total before VAT: 77.97
+VAT 18%: 14.03
+Total to pay: 92.00
+Payments
+Amount | Method | Date | Reference
+92.00 | Visa | 18/10/25 | 0
+Total paid: 92.00
+Customer signature:
+Issuer signature:

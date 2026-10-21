@@ -1,0 +1,21 @@
+Fabrikam Internet Services Ltd.
+7 Fiber Lane, Example City 6200
+billing@fabrikam.example
+Date: 02/01/26
+Original
+Tax Invoice / Receipt No. 9776646
+Bill to: John Example
+12 Sample Street, Springfield 75001
+Customer ID: 000123456
+Description | Qty | Price | Total
+Internet access + fixed IP, monthly | 1 | 99.00 | 99.00
+Total before discount: 99.00
+Total before VAT: 99.00
+VAT 18%: 17.82
+Total to pay: 116.82
+Payments
+Amount | Method | Date | Reference
+116.82 | Visa | 02/01/26 | 0
+Total paid: 116.82
+Customer signature:
+Issuer signature:

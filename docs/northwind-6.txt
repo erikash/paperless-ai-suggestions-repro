@@ -1,0 +1,21 @@
+Northwind Vehicle Tracking Ltd.
+88 Fleet Avenue, Example City 4400
+invoices@northwind.example
+Date: 07/06/26
+Original
+Tax Invoice / Receipt No. 9256787
+Bill to: John Example
+12 Sample Street, Springfield 75001
+Customer ID: 000123456
+Description | Qty | Price | Total
+Vehicle tracking subscription, monthly fee | 1 | 39.90 | 39.90
+Total before discount: 39.90
+Total before VAT: 39.90
+VAT 18%: 7.18
+Total to pay: 47.08
+Payments
+Amount | Method | Date | Reference
+47.08 | Visa | 07/06/26 | 0
+Total paid: 47.08
+Customer signature:
+Issuer signature:

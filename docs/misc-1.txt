@@ -1,0 +1,4 @@
+Referral letter
+Patient: John Example
+Please see the patient for a routine cardiology check-up.
+Dr. A. Sample
